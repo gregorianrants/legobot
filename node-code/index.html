@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+      #play {
+        width: 500px;
+      }
+     
+
+    </style>
+  </head>
+  <body>
+
+    <img id="play">
+    <button id='forward'>Forward</button>
+</br>
+  
+
+    <script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+
+  socket.on('data', (data, res) => {
+        // console.log("Receiving feed..." + data + " " + res);
+        const player = document.getElementById('play')
+
+        player.src = data
+        // $('#play').attr('src',data);
+        // $('#log').text(data);
+      });
+
+
+
+
+</script>
+  </body>
+</html>

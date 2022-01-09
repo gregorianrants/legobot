@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo /home/pi/.config/nvm/versions/node/v15.14.0/bin/node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^2.1.0",
+    "keypress": "^0.2.1",
+    "raspi-io": "^11.0.0"
+  }
+}

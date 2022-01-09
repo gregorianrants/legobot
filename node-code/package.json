@@ -1,0 +1,21 @@
+{
+  "name": "cam-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "ioredis": "^4.28.2",
+    "pi-camera-connect": "^0.3.4",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.1.1"
+  }
+}
