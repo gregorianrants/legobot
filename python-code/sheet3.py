@@ -19,7 +19,8 @@ import redis
 def handleMessage(message):
         if(message=='forward'):
                 print('going forth')
-                robot.forward()
+                ##robot.forward()
+                robot.value=(0.5,0.5)
         elif(message=='stop'):
                 print('backing off')
                 robot.stop()
