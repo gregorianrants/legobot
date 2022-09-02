@@ -18,7 +18,7 @@ const { StreamCamera, Codec, Flip, SensorMode } = require('pi-camera-connect');
 
 const streamCamera = new StreamCamera({
   codec: Codec.MJPEG,
-  fps: 15
+  fps: 10
 });
 
 
