@@ -1,0 +1,4 @@
+numpy was previously on numpy==1.19.5
+i cahnged it to 1.23.2 because something relied on this up to date version
+
+however somemting else may end up not working because expects the earlier version
